@@ -1,0 +1,11 @@
+.ui-tooltip, .qtip {
+	font-size: 12px;
+	font-family: "Verdana", "Arial", "sans-serif";
+	font-weight: bold;
+}
+
+#container {
+	border: 1px solid gray;
+	padding: 2px;
+	margin: 50px auto;
+}

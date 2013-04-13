@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Sample</title>
+  <link rel="stylesheet" href="css/jquery.qtip.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery-migrate-1.1.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.maphilight.min.js"></script>
+  <script type="text/javascript" src="js/jquery.qtip.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+  <div id="container" style="width: 1024px; height: 576px;">
+
+   <!-- place image and map here -->
+   <img class="map" src="ingame.jpg" width="1024" height="576" alt="Навигация по картинке" usemap="#Navigation">
+   <map id="Navigation" name="Navigation">
+    <area shape="rect" coords="0,0,185,20" 			href="debugPanel.html" 				title="пинг-лаг панель">					<!--185х20-->
+    <area id="t1" shape="rect" coords="780,335,1022,577" 	href="minimap.html" 				title="миникарта">							<!--242х242-->
+    <area shape="rect" coords="210,6,365,71" 		href="hitLog.html" 					title="панель повреждений противнику">		<!--155х65-->
+    <area shape="rect" coords="383,37,637,71" 		href="teamBasesPanel.html" 			title="полоса захвата баз">					<!--254х34-->
+    <area shape="rect" coords="435,0,600,26" 		href="fragCorrelationBar.html" 		title="счёт боя">							<!--135х26-->
+    <area shape="rect" coords="780,280,1024,331" 	href="playerMessangersPanel.html" 	title="killlog (кто кого убил)"><!--244х51-->
+    <area shape="rect" coords="0,40,195,283" 		href="leftPanel.html" 				title="панель уши левые">					<!--195х243-->
+    <area shape="rect" coords="832,40,1024,281" 	href="rightPanel.html" 				title="панель уши правые">					<!--192х241-->
+    <area shape="rect" coords="0,22,78,40" 			href="switcher_mc.html" 			title="панель переключения ушей">			<!--78х18-->
+    <area shape="rect" coords="972,9,1024,28" 		href="battleTimer.html" 			title="время боя">							<!--52х19-->
+    <area shape="rect" coords="0,412,145,576" 		href="damagePanel.html" 			title="дамаг-панель">						<!--145х164-->
+    <area shape="rect" coords="407,126,629,197" 	href="vehicleErrorsPanel.html" 		title="сообщения(о снаряжении, командире)">	<!--222х71-->
+    <area shape="rect" coords="0,283,146,411" 		href="messenger.html" 				title="чат (что пишут игроки)">	<!--х-->
+    <area shape="rect" coords="0,0,0,0" 			href="damageInfoPanel.html" 		title="">									<!--х-->
+    <area shape="rect" coords="407,80,619,125" 		href="timerBig.html" 				title="таймер до начала боя">				<!--212х45-->
+    <area shape="rect" coords="0,0,0,0" 			href="deathZoneTimer.html" 			title="?">									<!--х-->
+    <area shape="rect" coords="0,0,0,0" 			href="overturnedTimer.html" 		title="?">									<!--х-->
+    <area shape="rect" coords="0,0,0,0" 			href="drownTimer.html" 				title="таймер когда тонет танк">			<!--х-->
+    <area shape="rect" coords="0,0,0,0" 			href="langBarPanel.html" 			title="">									<!--х-->
+    <area shape="rect" coords="382,535,643,576" 	href="consumablesPanel.html" 		title="панель расходники и патроны">		<!--261х41-->
+    <area shape="rect" coords="381,443,642,531" 	href="vehicleMessagesPanel.html" 	title="сообщения (о том, кто попал, повредил тебя)"><!--261х88-->
+   </map>
+   <!-- end of map -->
+   
+  </div>
+</body>
+</html>
